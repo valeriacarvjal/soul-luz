@@ -436,6 +436,19 @@ h2 {
   transform: scale(1.05);
 }
 
+.product-card--aromatic .product-card__image {
+  overflow: visible;
+}
+
+.product-card--aromatic .product-card__quick {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  width: max-content;
+  max-width: 100%;
+  margin: 0.7rem 0 0 auto;
+}
+
 .product-card__tag {
   position: absolute;
   top: 1rem;

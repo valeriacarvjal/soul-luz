@@ -436,11 +436,13 @@ h2 {
   transform: scale(1.05);
 }
 
-.product-card--aromatic .product-card__image {
+.product-card--aromatic .product-card__image,
+.product-card--cinnamon .product-card__image {
   overflow: visible;
 }
 
-.product-card--aromatic .product-card__quick {
+.product-card--aromatic .product-card__quick,
+.product-card--cinnamon .product-card__quick {
   position: relative;
   right: auto;
   bottom: auto;

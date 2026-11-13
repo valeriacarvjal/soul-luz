@@ -27,7 +27,7 @@ body {
   background: var(--color-paper);
   color: var(--color-ink);
   font-family: var(--font-body);
-  font-size: 0.9375rem;
+  font-size: 1rem;
   line-height: 1.85;
   letter-spacing: 0.012em;
   -webkit-font-smoothing: antialiased;
@@ -122,7 +122,7 @@ img {
 
 .wordmark__caption {
   margin-top: 0.38rem;
-  font-size: 0.62rem;
+  font-size: 0.68rem;
   letter-spacing: 0.27em;
 }
 
@@ -130,7 +130,7 @@ img {
   display: flex;
   align-items: center;
   gap: clamp(1.5rem, 3.8vw, 4rem);
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   letter-spacing: 0.09em;
 }
 
@@ -184,7 +184,7 @@ img {
   gap: 0.7rem;
   margin: 0 0 1.5rem;
   color: var(--color-brown);
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   font-weight: 500;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -222,7 +222,7 @@ h2 em {
 
 .hero__subtitle {
   margin: 1.25rem 0 0;
-  font-size: 0.74rem;
+  font-size: 0.8rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -231,7 +231,7 @@ h2 em {
   max-width: 22rem;
   margin: 1.8rem 0 2.2rem;
   color: #6f665d;
-  font-size: 0.86rem;
+  font-size: 0.92rem;
   line-height: 2;
 }
 
@@ -245,7 +245,7 @@ h2 em {
   border-radius: 999px;
   padding: 0.8rem 1.5rem;
   cursor: pointer;
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   letter-spacing: 0.08em;
   transition: background var(--transition), color var(--transition), border-color var(--transition), transform var(--transition), box-shadow var(--transition);
 }
@@ -306,7 +306,7 @@ h2 em {
   bottom: 1rem;
   padding: 0.45rem 0.7rem;
   background: rgb(250 248 244 / 94%);
-  font-size: 0.68rem;
+  font-size: 0.73rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -323,7 +323,7 @@ h2 em {
   align-items: center;
   gap: 0.7rem;
   color: var(--color-brown);
-  font-size: 0.68rem;
+  font-size: 0.74rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -367,7 +367,7 @@ h2 {
   max-width: 29rem;
   margin: 1rem auto 0;
   color: var(--color-muted);
-  font-size: 0.84rem;
+  font-size: 0.9rem;
   line-height: 1.8;
 }
 
@@ -457,7 +457,7 @@ h2 {
   border: 1px solid rgb(116 100 84 / 12%);
   background: rgb(250 248 244 / 95%);
   color: var(--color-brown);
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -473,7 +473,7 @@ h2 {
   border-radius: 999px;
   background: rgb(250 248 244 / 96%);
   padding: 0.7rem 0.9rem;
-  font-size: 0.68rem;
+  font-size: 0.76rem;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   transition: background var(--transition), color var(--transition), border-color var(--transition), transform var(--transition), box-shadow var(--transition);
@@ -518,7 +518,7 @@ h2 {
 .product-card__details p {
   margin: 0;
   color: var(--color-muted);
-  font-size: 0.74rem;
+  font-size: 0.82rem;
   line-height: 1.8;
 }
 
@@ -535,7 +535,7 @@ h2 {
 .collection__note {
   margin: 2.5rem 0 0;
   color: var(--color-muted);
-  font-size: 0.74rem;
+  font-size: 0.82rem;
   line-height: 1.7;
   text-align: center;
 }
@@ -617,7 +617,7 @@ h2 {
   max-width: 38rem;
   margin: 0.75rem auto 0;
   color: #70685f;
-  font-size: 0.84rem;
+  font-size: 0.92rem;
   line-height: 1.95;
 }
 
@@ -628,7 +628,7 @@ h2 {
   margin-top: 1.7rem;
   border-bottom: 1px solid var(--color-gold);
   padding-bottom: 0.4rem;
-  font-size: 0.74rem;
+  font-size: 0.8rem;
   transition: gap var(--transition);
 }
 
@@ -676,7 +676,7 @@ h2 {
 .benefit p {
   margin: 0;
   color: var(--color-muted);
-  font-size: 0.75rem;
+  font-size: 0.83rem;
   line-height: 1.8;
 }
 
@@ -708,7 +708,7 @@ h2 {
   max-width: 40rem;
   margin: 0 auto;
   color: var(--color-muted);
-  font-size: 0.84rem;
+  font-size: 0.92rem;
   line-height: 1.9;
 }
 
@@ -805,7 +805,7 @@ h2 {
   max-width: 34rem;
   margin: 0;
   color: var(--color-muted);
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   line-height: 1.85;
 }
 
@@ -891,7 +891,7 @@ h2 {
   max-width: 23rem;
   margin: 0;
   color: var(--color-muted);
-  font-size: 0.84rem;
+  font-size: 0.92rem;
   line-height: 1.8;
 }
 
@@ -903,7 +903,7 @@ h2 {
   border-bottom: 1px solid var(--color-gold);
   padding-bottom: 0.4rem;
   color: var(--color-ink);
-  font-size: 0.74rem;
+  font-size: 0.8rem;
   letter-spacing: 0.04em;
   transition: gap var(--transition);
 }
@@ -973,7 +973,7 @@ h2 {
 .care-tip p {
   margin: 0;
   color: var(--color-muted);
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   line-height: 1.85;
 }
 
@@ -992,7 +992,7 @@ h2 {
 .contact__intro > p:not(.eyebrow) {
   max-width: 24rem;
   color: var(--color-muted);
-  font-size: 0.84rem;
+  font-size: 0.92rem;
   line-height: 1.85;
 }
 
@@ -1016,7 +1016,7 @@ h2 {
 .contact__whatsapp p {
   margin: 0;
   color: var(--color-muted);
-  font-size: 0.78rem;
+  font-size: 0.86rem;
   line-height: 1.8;
 }
 
@@ -1036,7 +1036,7 @@ h2 {
   gap: 0.45rem;
   margin-top: 1.35rem;
   color: var(--color-brown);
-  font-size: 0.8rem;
+  font-size: 0.86rem;
   font-style: normal;
 }
 
@@ -1080,7 +1080,7 @@ h2 {
 }
 
 .contact-form label {
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
@@ -1095,7 +1095,7 @@ h2 {
   background: transparent;
   padding: 0.55rem 0;
   color: var(--color-ink);
-  font-size: 0.8rem;
+  font-size: 0.87rem;
   line-height: 1.6;
   outline: none;
   transition: border-color var(--transition);
@@ -1134,7 +1134,7 @@ h2 {
   min-height: 1.2rem;
   margin: 0;
   color: var(--color-brown);
-  font-size: 0.76rem;
+  font-size: 0.84rem;
   line-height: 1.6;
 }
 
@@ -1173,7 +1173,7 @@ h2 {
   display: flex;
   justify-content: flex-end;
   gap: clamp(0.8rem, 2vw, 2rem);
-  font-size: 0.72rem;
+  font-size: 0.78rem;
 }
 
 .footer-links a span {
@@ -1189,7 +1189,7 @@ h2 {
   border-top: 1px solid rgb(255 255 255 / 13%);
   padding: 0.8rem var(--page-gutter);
   color: #d0c8bd;
-  font-size: 0.64rem;
+  font-size: 0.72rem;
   line-height: 1.5;
 }
 
@@ -1324,7 +1324,7 @@ h2 {
   }
 
   body {
-    font-size: 0.92rem;
+    font-size: 0.96rem;
   }
 
   .site-header {
@@ -1336,7 +1336,7 @@ h2 {
   }
 
   .wordmark__caption {
-    font-size: 0.58rem;
+    font-size: 0.62rem;
   }
 
   .menu-toggle {

@@ -417,6 +417,7 @@ h2 {
 .product-card__image {
   position: relative;
   height: auto;
+  overflow: visible;
   border-radius: 20px;
   background: #fbf9f5;
   padding: clamp(0.55rem, 1.05vw, 0.95rem);
@@ -436,19 +437,6 @@ h2 {
   transform: scale(1.05);
 }
 
-.product-card--aromatic .product-card__image {
-  overflow: visible;
-}
-
-.product-card--aromatic .product-card__quick {
-  position: relative;
-  right: auto;
-  bottom: auto;
-  width: max-content;
-  max-width: 100%;
-  margin: 0.7rem 0 0 auto;
-}
-
 .product-card__tag {
   position: absolute;
   top: 1rem;
@@ -463,12 +451,15 @@ h2 {
 }
 
 .product-card__quick {
-  position: absolute;
-  right: 1rem;
-  bottom: 1rem;
+  position: relative;
+  right: auto;
+  bottom: auto;
   display: flex;
+  width: max-content;
+  max-width: 100%;
   align-items: center;
   gap: 0.9rem;
+  margin: 0.7rem 0 0 auto;
   border: 1px solid rgb(116 100 84 / 18%);
   border-radius: 999px;
   background: rgb(250 248 244 / 96%);
